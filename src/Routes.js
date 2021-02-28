@@ -9,7 +9,7 @@ export const Routes = () => (
       {routes.map((route, index) => (
         <Route
           key={index}
-          path={routes.path}
+          path={route.path}
           exact={route.exact}
           >
             <route.Component />
